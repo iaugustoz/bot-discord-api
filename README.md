@@ -20,11 +20,11 @@ Projeto em andamento.
 
 ### Tecnologias
 
--
+- Python (v3.12.6).
 
 ### Dependências
 
--
+- [Discord.py](https://discordpy.readthedocs.io/en/stable/)
 
 ### Instalando
 
