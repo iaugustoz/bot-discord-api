@@ -1,4 +1,4 @@
-#
+# Popocas PromoBot
 
 <p align="center">
   <a href="#status-do-projeto">Status</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -18,18 +18,11 @@ Projeto em andamento.
 
 ### Tecnologias
 
-- Java (v17.0.5);
-- Spring Boot (v3.2.9).
+-
 
 ### Dependências
 
-- Spring Web;
-- Lombok;
-- Bean Validation;
-- Spring Security;
-- MySQL Driver;
-- JUnit Jupiter API;
-- Plugin JaCoCo.
+- 
 
 ### Instalando
 
@@ -71,10 +64,15 @@ git push origin minha-contribuicao
 
 5. Abra uma solicitação de pull no repositório original.
 
-## Autor
+## Autores
 
 - Igor Augusto
 - E-mail: igoraugustobz@gmail.com
 - Me siga no [Instagram](https://www.instagram.com/iaugusto__/)
 - Acesse o meu [Portfólio](https://iaugusto.vercel.app/)
 - Conecte-se comigo no [LinkedIn](https://www.linkedin.com/in/igorbrz/)
+
+- Pedro Henrique do Prado
+- E-mail: pedro.phprado@gmail.com
+- Me siga no [Instagram](https://www.instagram.com/pedrohenrprado/)
+- Conecte-se comigo no [LinkedIn](https://www.linkedin.com/in/phpprado/)
