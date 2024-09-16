@@ -8,7 +8,9 @@
 
 ## Descrição
 
-Descrição em andamento.
+Este é um bot para o Discord que posta automaticamente promoções e ofertas em canais designados. O bot busca promoções de diversas fontes. Ele foi desenvolvido em Python utilizando a biblioteca discord.py, garantindo uma integração fluida com servidores Discord e permitindo que os usuários fiquem por dentro das últimas promoções de maneira prática e automatizada.
+
+O projeto é colaborativo e foi desenvolvido por [Igor Augusto](https://iaugusto.vercel.app/) e [Pedro Henrique](https://www.linkedin.com/in/phpprado/).
 
 ## Status do Projeto
 
@@ -22,7 +24,7 @@ Projeto em andamento.
 
 ### Dependências
 
-- 
+-
 
 ### Instalando
 
