@@ -1,4 +1,4 @@
-# Popocas PromoBot
+# 🤖 Popocas PromoBot 🤖
 
 <p align="center">
   <a href="#status-do-projeto">Status</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -6,75 +6,94 @@
   <a href="#autor">Autor</a>
 </p>
 
-## Descrição
+## 📜 **Descrição**
 
-Este é um bot para o Discord que posta automaticamente promoções e ofertas em canais designados. O bot busca promoções de diversas fontes. Ele foi desenvolvido em Python utilizando a biblioteca discord.py, garantindo uma integração fluida com servidores Discord e permitindo que os usuários fiquem por dentro das últimas promoções de maneira prática e automatizada.
+O **Popocas PromoBot** é um bot para o Discord que publica automaticamente promoções e ofertas em canais designados. O bot busca promoções de diversas fontes, garantindo que os usuários fiquem sempre atualizados com as melhores oportunidades de compra, de maneira prática e automatizada.
 
-O projeto é colaborativo e foi desenvolvido por [Igor Augusto](https://iaugusto.vercel.app/) e [Pedro Henrique](https://www.linkedin.com/in/phpprado/).
+O projeto foi colaborativamente desenvolvido por [Igor Augusto](https://iaugusto.vercel.app/) e [Pedro Henrique](https://www.linkedin.com/in/phpprado/).
 
-## Status do Projeto
+## 🚀 **Status do Projeto**
 
-Projeto em andamento.
+⚙️ Projeto em andamento...
 
-## Pré-requisitos
+---
 
-### Tecnologias
+## 💻 **Tecnologias Utilizadas**
 
-- Python (v3.12.6).
+- **Python** (v3.12.6)
 
-### Dependências
+---
 
-- [Discord.py](https://discordpy.readthedocs.io/en/stable/)
+## 📦 **Dependências**
 
-### Instalando
+- [Discord.py](https://discordpy.readthedocs.io/en/stable/) – integração com o Discord
 
-1. Clone o repositório para o seu ambiente local:
+---
+
+## 🔧 **Instalação**
+
+Siga os passos abaixo para rodar o projeto localmente:
+
+1. **Clone o repositório:**
+
+```bash
+git clone https://github.com/iaugustoz/bot-discord-api
+```
+
+2. **Navegue até o diretório do projeto:**
 
 ```
-$ git clone https://github.com/iaugustoz/api-bot-discord
+cd bot-discord-api
 ```
 
-2. Navegue até o diretório do projeto.
+3. **Instale as dependências:**
 
 ```
-$ cd api-bot-discord
+pip install -r requirements.txt
 ```
 
-## Contribuindo
+4. **Configure o bot com o token do Discord**
 
-Contribuições são bem-vindas! Se você quiser contribuir para o projeto, siga as etapas abaixo:
+---
 
-1. Fork o repositório e clone-o para o seu ambiente local.
+## 🤝 Contribuindo
 
-2. Crie uma nova branch:
+Contribuições são sempre bem-vindas! Para contribuir com este projeto, siga estas etapas:
+
+1. **Faça um fork do projeto e clone o repositório.**
+2. **Crie uma branch para suas alterações:**
 
 ```
 git checkout -b minha-contribuicao
 ```
 
-3. Faça as alterações desejadas e commit-as:
+3. **Implemente suas mudanças e faça o commit:**
 
 ```
 git commit -m "Minha contribuição"
 ```
 
-4. Envie suas alterações para o repositório remoto:
+4. **Envie suas alterações para o repositório remoto:**
 
 ```
 git push origin minha-contribuicao
 ```
 
-5. Abra uma solicitação de pull no repositório original.
+---
 
-## Autores
+## 👨‍💻 Autor
 
 - Igor Augusto
-- E-mail: igoraugustobz@gmail.com
-- Me siga no [Instagram](https://www.instagram.com/iaugusto__/)
-- Acesse o meu [Portfólio](https://iaugusto.vercel.app/)
-- Conecte-se comigo no [LinkedIn](https://www.linkedin.com/in/igorbrz/)
 
-- Pedro Henrique do Prado
-- E-mail: pedro.phprado@gmail.com
-- Me siga no [Instagram](https://www.instagram.com/pedrohenrprado/)
-- Conecte-se comigo no [LinkedIn](https://www.linkedin.com/in/phpprado/)
+  - 📧 E-mail: iaugustodeveloper@gmail.com
+  - [Instagram](https://www.instagram.com/iaugusto__/) | [Portfólio](https://iaugusto.vercel.app/) | [LinkedIn](https://www.linkedin.com/in/igorbrz/)
+
+- Pedro Henrique
+  - 📧 E-mail: pedro.phprado@gmail.com
+  - [Instagram](https://www.instagram.com/pedrohenrprado/) | [LinkedIn](https://www.linkedin.com/in/phpprado/)
+
+---
+
+## ⚠️ Aviso Importante
+
+Este projeto ainda está em desenvolvimento, portanto, algumas funcionalidades podem estar incompletas ou sujeitas a alterações. Se você encontrar algum bug, não hesite em abrir uma issue!
