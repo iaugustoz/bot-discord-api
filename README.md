@@ -1,9 +1,9 @@
-# 🤖 Popocas PromoBot 🤖
+# 🍿 Popocas PromoBot 🍿
 
 <p align="center">
-  <a href="#status-do-projeto">Status</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#contribuindo">Contribuindo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#autor">Autor</a>
+  <a href="#🔧-instalação">Instalação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#🤝-contribuindo">Contribuindo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#👨‍💻-autor">Autor</a>
 </p>
 
 ## 📜 **Descrição**
