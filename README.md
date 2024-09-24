@@ -26,7 +26,8 @@ O projeto foi colaborativamente desenvolvido por [Igor Augusto](https://iaugusto
 
 ## 📦 **Dependências**
 
-- [Discord.py](https://discordpy.readthedocs.io/en/stable/) – integração com o Discord
+- [discord.py](https://discordpy.readthedocs.io/en/stable/) – integração com o Discord
+- [python-dotenv](https://pypi.org/project/python-dotenv/) - comunicação com arquivos .env
 
 ---
 
