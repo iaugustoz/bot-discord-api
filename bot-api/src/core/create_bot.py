@@ -1,7 +1,9 @@
+from dbm import error
+
 import discord
 from discord.ext import commands
 from src.config import config
-import time
+from time import sleep
 
 def create_bot():
     intents = discord.Intents.default()
@@ -18,12 +20,19 @@ def create_bot():
     @bot.event
     async def on_ready():
         print('🍿 Popocas PromoBot Inicializando....')
-        time.sleep(2)
+        sleep(2)
 
         print('🍿 Carregando promoções...')
-        time.sleep(3.5)
+        sleep(3.5)
 
         print('\nBot carregado. As promoções começaram a aparecer')
+
+    @bot.event
+    async def on_command_error(ctx, error):
+        if isinstance(error, commands.MissingRequiredArgument):
+            await ctx.send(f'🍿 Faltou um grão pra estourar, {ctx.author}! Não deixe a receita pela metade!')
+        elif isinstance(error, commands.CommandNotFound):
+            await ctx.send(f'🍿 Hmm... esse sabor de pipoca não temos no cardápio, {ctx.author}! Tente outro!')
 
     return bot
 
