@@ -1,31 +1,36 @@
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.chrome.service import Service
+import time
 
-import requests
-from bs4 import BeautifulSoup
 
 
-def baseRequest(url):
+def parser_selenium(url):
     try:
-        response = requests.get(url)
-        return response.text
-    except Exception as e:
-        print("Falha na requisição!", e)
-        return None
+        # Inicializa o ChromeDriver
+        service = Service(ChromeDriverManager().install())
+        driver = webdriver.Chrome(service=service)
 
-def parserExample(url):
-    html = baseRequest(url)
+        driver.get(url)
+        time.sleep(5)
 
-    if html:
-        soup = BeautifulSoup(html, 'lxml')
-
-        print(soup.prettify())
-
-        promo_div = soup.find('div', class_='swiper-wrapper')
+        # Localiza a div pai
+        promo_div = driver.find_element(By.CLASS_NAME, 'swiper-wrapper')
 
         if promo_div:
-            produtos = promo_div.find_all('a', class_='productLink')
-            for item in produtos:
-                href = item.get('href')
+            # Pega todos os links
+            produtos = promo_div.find_elements(By.CLASS_NAME, 'productLink')
+
+            for produto in produtos:
+                href = produto.get_attribute('href')
                 if href:
                     print(href)
         else:
             print("Não foi possível localizar a div com a classe swiper-wrapper.")
+
+        # Fecha o navegador após o scraping
+        driver.quit()
+
+    except Exception as e:
+        print("Falha ao usar Selenium:", e)
