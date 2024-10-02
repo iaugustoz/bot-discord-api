@@ -13,6 +13,10 @@ async def help_me(ctx):
 ✨ **Mais comandos deliciosos chegando em breve!** Fique de olho! 🍿
          ''')
 
+async def feedback(ctx):
+    await ctx.send("Obrigado! 🍿 Sua opinião é o ingrediente secreto que deixa "
+                   "nossas promoções ainda mais crocantes! 🌽")
+
 async def shutdown(ctx):
     await ctx.send('Desligando o fogão de pipocas! 🍿👋')
     await ctx.bot.close()
@@ -20,3 +24,4 @@ async def shutdown(ctx):
 async def setup(bot):
     bot.add_command(commands.Command(help_me, name='help-me'))
     bot.add_command(commands.Command(shutdown, name='stop-me'))
+    bot.add_command(commands.Command(feedback, name="feedback"))
