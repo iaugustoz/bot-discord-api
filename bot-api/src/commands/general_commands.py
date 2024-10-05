@@ -42,11 +42,13 @@ async def feedback(ctx, *, message: str):
 
 async def help_me(ctx):
     await ctx.send('''🍿 **Popocas Promo - Cardápio de Comandos** 🍿
+    
 🔸 **/promo** - Receba as promoções mais quentinhas direto na sua tela! 🔥
 🔸 **/help-me** - Precisa de ajuda? Veja todos os comandos e escolha sua pipoca favorita! 📜
 🔸 **/feedback** - Envie um feedback sobre o sabor das promoções ou sugestões de novas pipocas! 📩
 🔸 **/config** - Customize suas preferências de promoções! 🌽
 🔸 **/stop-me** - Precisa desligar o bot? Desligue o fogão de pipocas! 🔌
+
 ✨ **Mais comandos deliciosos chegando em breve!** Fique de olho! 🍿
          ''')
 
