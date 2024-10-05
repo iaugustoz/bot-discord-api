@@ -29,7 +29,6 @@ O projeto foi colaborativamente desenvolvido por [Igor Augusto](https://iaugusto
 - [discord.py](https://discordpy.readthedocs.io/en/stable/) – integração com o Discord
 - [python-dotenv](https://pypi.org/project/python-dotenv/) - comunicação com arquivos .env
 - [selenium](https://pypi.org/project/selenium/) - interação automatizada com a web
-- [requests](https://pypi.org/project/requests/) - apreenção do conteúdo estático de uma pégina web
 
 ---
 
